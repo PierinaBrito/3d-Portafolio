@@ -1,4 +1,4 @@
-Visit this website here: [https://grand-conkies-8994c7.netlify.app/](https://pierina-3d-portafolio.netlify.app)
+Visit this website here: (https://pierina-3d-portafolio.netlify.app)
 
 ![Screenshot 2024-06-13 150500](https://github.com/PierinaBrito/3d-Portafolio/assets/77765628/992bbc2a-1f88-44f5-8809-715642884567)
 
