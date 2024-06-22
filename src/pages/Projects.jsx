@@ -14,7 +14,7 @@ const Projects = () => {
           I've embarked on numerous projects throughout the years,
           but these are the ones I hold closest to my heart. Many of 
           them are open-source, so if you come across something that
-          piques your interest, feel free to explore the codebase and 
+          picks your interest, feel free to explore the codebase and 
           contribute your ideas for futher enhancements.
           Your collaboration is highly valued!
         </p>

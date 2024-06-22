@@ -9,9 +9,9 @@ import Alert from '../components/Alert';
 
 const Contact = () => {
   const formRef = useRef(null);
-  const [ form, setForm ] = useState({ name: '', email: '', message: '' })
+  const [ form, setForm ] = useState({ name: '', email: '', message: '' });
   const [ isLoading, setIsLoading ] = useState(false);
-  const [ currentAnimation, setCurrentAnimation ] = useState('idle')
+  const [ currentAnimation, setCurrentAnimation ] = useState('idle');
 
   const { alert, showAlert, hideAlert } = useAlert();
 
@@ -35,7 +35,8 @@ const Contact = () => {
         message: form.message
       },
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-    ).then(() => {
+    )
+    .then(() => {
       setIsLoading(false);
       showAlert({ show: true, text: 'Message sent successfully!', type:'success' })
 
@@ -45,11 +46,12 @@ const Contact = () => {
         setForm({ name: '', email: '', message: '' });
       }, [3000])
 
-     }).catch((Error) => {
+     })
+     .catch((Error) => {
       setIsLoading(false);
       setCurrentAnimation('idle');
       console.log(Error);
-      showAlert({ show: true, text: 'I didnt receive your message!', type:'danger' })
+      showAlert({ show: true, text: 'I did not receive your message!', type:'danger' })
      })
   };
   
@@ -156,4 +158,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;

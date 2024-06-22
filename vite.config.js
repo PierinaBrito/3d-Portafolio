@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: process.env.PORT || 5173, // Use the PORT environment variable or default to 3000
+    strict: false,
   },
 })
 
